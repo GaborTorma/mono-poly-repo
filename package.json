@@ -1,0 +1,19 @@
+{
+  "name": "mono-poly-repo",
+  "type": "module",
+  "version": "0.0.01",
+  "description": "",
+  "author": "",
+  "license": "ISC",
+  "keywords": [],
+  "main": "index.js",
+  "scripts": {
+    "lint": "eslint .",
+    "lint:fix": "eslint . --fix",
+    "release": "release-it"
+  },
+  "devDependencies": {
+    "@gabortorma/antfu-eslint-config": "^0.5.12",
+    "release-it": "^17.3.0"
+  }
+}
