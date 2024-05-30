@@ -10,10 +10,11 @@
   "scripts": {
     "lint": "eslint .",
     "lint:fix": "eslint . --fix",
-    "release": "release-it"
+    "release": "dotenv release-it"
   },
   "devDependencies": {
     "@gabortorma/antfu-eslint-config": "^0.5.12",
+    "dotenv-cli": "^7.4.2",
     "release-it": "^17.3.0"
   }
 }
