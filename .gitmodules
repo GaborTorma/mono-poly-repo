@@ -1,6 +1,7 @@
 [submodule "packages/mpr-package1"]
 	path = packages/mpr-package1
 	url = git@github.com:GaborTorma/mpr-package1.git
+	branch = main
 [submodule "apps/mpr-app1"]
 	path = apps/mpr-app1
 	url = git@github.com:GaborTorma/mpr-app1.git
